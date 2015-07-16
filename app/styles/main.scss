@@ -1,0 +1,63 @@
+body {
+  font-family: OpenSans, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 { 
+  font-size: 220%;
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
+  color: #999;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#hero {
+  height: 450px;
+  width: 100%;
+}
+
+#hero-image {
+  height: 450px;
+  width: 100%;
+  background: url('../images/hero.jpg') center center no-repeat; 
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  -webkit-filter: blur(.5px);
+}
+
+#hero-image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(5,5,5,0.6) 100%);
+}
+
+#about-us {
+  background: #EEE;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#about-us p {
+  padding: 10px 50px;
+}
+
+footer {
+  padding: 20px 0;
+  margin-left: 30px;
+}
